@@ -1,0 +1,19 @@
+{
+  "name": "cabriole",
+  "version": "0.0.1",
+  "description": "A Typescript based ORM for Couchbase.",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.udm.js",
+  "module": "dist/index.m.js",
+  "source": "src/index.ts",
+  "repository": "https://github.com/aaron-harvey/cabriole.git",
+  "author": "Aaron Harvey <aaron.harvey@onsemi.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "microbundle watch",
+    "build": "microbundle"
+  },
+  "dependencies": {
+    "microbundle": "^0.10.1"
+  }
+}
